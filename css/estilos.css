@@ -1,0 +1,241 @@
+.barra {
+  color: white; }
+  .barra :hover {
+    color: black; }
+
+.precios {
+  color: black; }
+
+.tituloprecio {
+  color: black; }
+
+.descripcion {
+  background-color: #143e7c; }
+
+.titulo {
+  color: white; }
+
+.footer {
+  color: white; }
+
+.formulario {
+  background-color: beige; }
+
+.locales {
+  background-image: radial-gradient(blue, cyan, white); }
+
+.titulofotos {
+  color: black;
+  background-image: linear-gradient(cyan, darkblue); }
+
+body {
+  margin: 0;
+  background-image: url(/imagenes/fondo.jpg); }
+
+.headerr {
+  background-image: linear-gradient(to bottom, white, blue);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  border: 2px solid black; }
+
+.barra {
+  background-image: linear-gradient(to bottom, white, blue);
+  display: inline-block;
+  border: 3px solid black;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-right: 10px; }
+  .barra :hover {
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom, black, blue); }
+
+.precios {
+  background-image: linear-gradient(#3717ac, #f8e9e9);
+  border: 2px solid black;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  transition: 4s; }
+  .precios :hover {
+    transform: scale(2.5); }
+
+.tituloprecio {
+  background-image: linear-gradient(to right, beige, #2e22cc, black);
+  border: 2px solid black;
+  text-align: center; }
+
+.descripcion {
+  text-align: center;
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 3px solid black; }
+
+.titulo {
+  text-align: center;
+  border: 2px solid black; }
+
+.footer {
+  border: 2px solid black;
+  text-align: center;
+  margin-bottom: 0px; }
+
+nav {
+  margin-top: 10px; }
+
+.formulario {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 2px solid black;
+  height: max-content;
+  width: 100px;
+  height: 16px;
+  font-size: 12px;
+  transition: all 2s; }
+  .formulario :hover {
+    width: 200px;
+    height: 32px;
+    font-size: 18px;
+    border: 1px solid black; }
+
+.locales {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 10px;
+  padding: 20px;
+  border: 4px solid black;
+  border-style: dashed; }
+
+.titulofotos {
+  text-align: center;
+  border: 4px solid black;
+  margin: 10px;
+  padding: 20px; }
+
+.imagenlocales {
+  transition: 4s; }
+  .imagenlocales :hover {
+    transform: scale(1, 2); }
+
+body {
+  margin: 0;
+  background-image: url(/imagenes/fondo.jpg); }
+
+.imagenn {
+  transition: 5s; }
+  .imagenn:hover {
+    transform: rotate(360dg); }
+
+.tituloo {
+  transition: 3s; }
+  .tituloo:hover {
+    transform: translate(150px, 150px); }
+
+.titulos {
+  transition: 5s; }
+  .titulos:hover {
+    transform: scale(3.1); }
+
+.divv {
+  background-image: linear-gradient(to right, white, #1b57a5);
+  border: 2px solid black; }
+
+.headerr {
+  background-image: linear-gradient(to bottom, white, blue);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  border: 2px solid black; }
+
+.barra {
+  background-image: linear-gradient(to bottom, white, blue);
+  display: inline-block;
+  border: 3px solid black;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-right: 10px; }
+  .barra:hover {
+    color: black;
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom, black, blue); }
+
+.precios {
+  background-image: linear-gradient(#3717ac, #f8e9e9);
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  transition: 4s; }
+  .precios:hover {
+    transform: scale(2.5); }
+
+.tituloprecio {
+  background-image: linear-gradient(to right, beige, #2e22cc, black);
+  border: 2px solid black;
+  color: black;
+  text-align: center; }
+
+.descripcion {
+  text-align: center;
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 3px solid black;
+  background-color: #143e7c;
+  color: white; }
+
+.titulo {
+  text-align: center;
+  border: 2px solid black;
+  color: white;
+  background-image: linear-gradient(#135ea3, #1c9288, white); }
+
+.footer {
+  background-image: linear-gradient(to top, black, grey, white);
+  border: 2px solid black;
+  color: white;
+  text-align: center;
+  margin-bottom: 0px; }
+
+nav {
+  margin-top: 10px; }
+
+.formulario {
+  background-image: radial-gradient(black, grey, white);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 2px solid black;
+  background-color: beige;
+  height: max-content;
+  width: 100px;
+  height: 16px;
+  font-size: 12px;
+  transition: all 2s; }
+  .formulario:hover {
+    width: 200px;
+    height: 32px;
+    font-size: 18px;
+    border: 1px solid black; }
+
+.locales {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-image: radial-gradient(blue, cyan, white);
+  margin: 10px;
+  padding: 20px;
+  border: 4px solid black;
+  border-style: dashed; }
+
+.titulofotos {
+  text-align: center;
+  border: 4px solid black;
+  background-image: linear-gradient(cyan, darkblue);
+  color: black;
+  margin: 10px;
+  padding: 20px; }
+
+.imagenlocales {
+  transition: 4s; }
+  .imagenlocales :hover {
+    transform: scale(1, 2); }

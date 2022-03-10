@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background-image: url(/imagenes/fondo.jpg);
+}
+.headerr {
+    background-image: linear-gradient(to bottom, white, blue);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    border: 2px solid black;      
+    } 
+    .barra {
+        background-image: linear-gradient(to bottom, white, blue);
+        display: inline-block;
+        border: 3px solid black;
+        padding: 10px 30px;
+        text-decoration: none;
+        margin-right: 10px; 
+        :hover {
+                border: 1px solid black;
+                background-image: linear-gradient(to bottom, black, blue);
+            }
+        }   
+.precios {
+    background-image: linear-gradient(rgb(55, 23, 172), rgb(248, 233, 233));
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    transition: 4s;
+        :hover {
+            transform: scale(2.5);}
+            }
+.tituloprecio {
+    background-image: linear-gradient(to right, beige, rgb(46, 34, 204) , black);
+    border: 2px solid black;
+    text-align: center;
+            }
+.descripcion {
+    text-align: center;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 3px solid black;
+    }
+.titulo {
+    text-align: center;
+    border: 2px solid black;
+                }	
+.footer {
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 0px;              
+            }     
+nav {
+    margin-top:  10px;
+        }
+.formulario {            
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid black;
+    height: max-content;
+    width: 100px;
+    height: 16px;
+    font-size: 12px;
+    transition: all 2s;   
+:hover {
+    width: 200px;
+    height: 32px;
+    font-size: 18px;
+    border: 1px solid black;
+            }
+        }
+.locales {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid black;
+    border-style: dashed; 
+        }
+.titulofotos {
+    text-align: center;
+    border: 4px solid black;
+    margin: 10px;
+    padding: 20px;
+        }
+.imagenlocales {
+    transition: 4s;
+:hover {
+transform: scale(1, 2);
+        }
+        }
